@@ -1,0 +1,270 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header part */
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #6610f2;
+    display: flex;
+    justify-content: space-between;
+}
+.header input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .c-programing-images{
+    align-items: center;
+  }
+  
+  .header .search-container button {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .right-side-icon{
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .profile-icon img{
+    border-radius: 50%;
+  }
+  
+.main-header{
+    justify-content: space-between;
+}
+
+  
+.main-layout{
+    height: 100vh;
+    width: 100%;
+}
+.main-content{
+    display: flex;
+}
+/* sidebar */
+.sidebar{
+    width: 20%;
+    height: calc(130vh - 50px);
+}
+
+.up-arrow img{
+    margin-left: 70px;
+}
+.up-arrow1 img{
+    margin-left: 60px;
+}
+.up-arrow2 img{
+    margin-left: 30px;
+}
+.button-right h6 span{
+    background-color: #6610f2;
+    margin-left: 20px;
+}
+.button-right2 h6 span{
+   background-color: mediumvioletred;
+   margin-left: 20px;
+}
+.sidebar h6{
+    font-size: 13px;
+    color: gray;
+    margin-top: 5px;
+}
+
+/* sale traffice block */
+.content-wrapper{
+    width: 100%;
+    background-color: #D3D3D3;
+}
+.content-wrapper h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+.content-wrapper h6{
+    margin-left: 20px;
+}
+.content-wrapper span{
+    color: gray;
+}
+.main-content-info-graphs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.main-content-info-content h3 {
+    font-weight: 700;
+}
+
+.main-content-info-content span {
+    color: rgb(180, 182, 182);
+}
+
+.main-content-info-graphs .col-lg-12 {
+    padding-bottom: 20px;
+}
+
+.main-content-info-graphs .col-lg-6 {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 0px;
+}
+
+.main-content-info-graphs .col-lg-6 span {
+    color: #bdbbbb;
+}
+
+.main-content-info-graphs .col-lg-6 i {
+    color: rgb(167, 136, 250);
+    background-color: rgb(216, 194, 252);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.main-content-info-graphs .col-lg-6:hover i {
+    color: #fff;
+    background-color: rgb(167, 136, 250);
+}
+
+.main-content-info-graphs .col-lg-6 h5 {
+    padding-top: 10px;
+    font-weight: 700;
+
+}
+
+.main-content-info-graphs .col-lg-12,
+.main-content-info-graphs .col-lg-7,
+.main-content-info-graphs .col-lg-6{
+background-color: #fff !important;
+border-radius: 5px;
+}
+
+.main-content-info-graphs-end-part .col-lg-9,
+.main-content-info-graphs-end-part .col-lg-3 {
+    background-color: #fff !important;
+}
+.main-content-info-graphs-end-part .col-lg-9{
+    padding: 20px;
+}
+.main-content-info-graphs-end-part .col-lg-3 {
+    width: 23% !important;
+}
+.main-content-info-lossgain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.chart_div-block {
+    position: relative;
+    top: -10px;
+}
+.fa-long-arrow-down{
+    background-color: #fff !important   ;
+    color: red !important;
+}
+.fa-long-arrow-up{
+    background-color: #fff !important;
+    color: green !important;
+}
+.data-divider span{
+    background-color: #fff !important   ;
+    color: red !important;
+}
+.data-divider-secondary span{
+    background-color: #fff !important;
+    color: green !important;
+}
+
+/* users block */
+.users-block{
+    height: 310px;
+    width: 860px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.add-new-users{
+    margin-left: 533px;
+    margin-top: 20px;
+}
+.users-block-header h4{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.users-block-header span{
+    margin-left: 20px;
+}
+.countary{
+    margin-left: 175px;
+}
+.countary-wrapper{
+    margin-left: 55px;
+}
+.activity{
+    margin-left: 142px;
+}
+.content-wrapper span{
+    font-size: 14px;
+}
+.profile-images img{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.name-wrapper-block-users{
+    font-size: 14px;
+}
+.user-name h6{
+    font-size: 14px;
+    margin-left:0px;
+}
+.border-bottom{
+    border-bottom: 1px solid gray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.users-rate{
+    width: 200px;
+    background-color: rgb(67, 30, 172);
+    height: 145px;
+    border-radius: 5px;
+}
+.customer-rate{
+    width: 200px;
+    background-color:#F2B400;
+    height: 145px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

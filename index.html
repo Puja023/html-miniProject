@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+    <div class="main-layout">
+        <!-- header -->
+        <div class="header shadow-sm">
+            <div class="left-side-icon d-flex gap-3">
+                <div class="c-programing-images mt-2 ms-5 d-flex">
+                    <img src="images/c-programming-logo.png" height="30px" width="30px">
+                    <h6 class="text-white">COREUI</h6>
+                    <h6><span class="badge bg-light p-0">New</span></h6>
+
+                </div>
+                <div class="core-ui mt-3">
+
+
+                </div>
+                <div class="badge-button">
+
+                </div>
+
+                <div class="left-arrow mt-2">
+                    <img src="fonts/left-arrow.png" height="15px" width="15px">
+                </div>
+                <div class="search-container ms-1">
+                    <form>
+                        <button type="submit"><i class="fa fa-search"></i></button>
+
+
+                        <input type="text" placeholder="Search.." name="search">
+                    </form>
+
+                </div>
+            </div>
+            <div class="right-side-icon d-flex">
+                <div class="notification-icon">
+                    <img src="fonts/notification.png" height="15px" width="15px">
+                </div>
+                <div class="app-icon">
+                    <img src="fonts/app.png" height="15px" width="15px">
+
+                </div>
+
+                <div class="message-icon">
+                    <img src="fonts/email.png" height="15px" width="15px">
+
+                </div>
+                <div class="profile-icon">
+                    <img src="images/img_avatar2.png" height="25px" width="25px">
+
+                </div>
+                <div class="menu-icon me-3">
+                    <img src="fonts/menu.png" height="15px" width="15px">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            <!-- side bar -->
+            <div class="sidebar shadow-sm">
+                <div class="dashboard d-flex gap-3 mt-4 ms-4">
+                    <div class="dashboard-images">
+                        <img src="fonts/dashboard.png" height="20px" width="20px">
+                    </div>
+                    <div class="dashboard-wrapper">
+                        <h6>Dashboard</h6>
+                    </div>
+                    <div class="button-right">
+                        <h6><span class="badge bg-indigo">New</span></h6>
+
+                    </div>
+                </div>
+                <h6 class="component ms-4 mt-3">Component</h6>
+
+                <div class="base d-flex gap-3 mt-3 ms-4">
+                    <div class="base-images">
+                        <img src="fonts/puzzle.png" height="15px" width="15px">
+                    </div>
+                    <div class="base-wrapper">
+                        <h6>Base</h6>
+                    </div>
+                    <div class="up-arrow">
+                        <img src="fonts/down.png" height="25px" width="25px">
+
+                    </div>
+                </div>
+                <div class="button d-flex gap-3 mt-3 ms-4">
+                    <div class="button-images">
+                        <img src="fonts/mouse.png" height="15px" width="15px">
+                    </div>
+                    <div class="button-wrapper">
+                        <h6>Button</h6>
+                    </div>
+                    <div class="up-arrow1">
+                        <img src="fonts/down.png" height="25px" width="25px">
+
+                    </div>
+                </div>
+                <div class="form d-flex gap-3 mt-3 ms-4">
+                    <div class="form-images">
+                        <img src="fonts/form.png" height="15px" width="15px">
+                    </div>
+                    <div class="form-wrapper">
+                        <h6>Form</h6>
+                    </div>
+                    <div class="up-arrow">
+                        <img src="fonts/down.png" height="25px" width="25px">
+
+                    </div>
+                </div>
+                <div class="icons d-flex gap-3 mt-3 ms-4">
+                    <div class="icons-images">
+                        <img src="fonts/star.png" height="15px" width="15px">
+                    </div>
+                    <div class="button-wrapper">
+                        <h6>icons</h6>
+                    </div>
+                    <div class="up-arrow">
+                        <img src="fonts/down.png" height="25px" width="25px">
+
+                    </div>
+                </div>
+                <div class="notification d-flex gap-3 mt-3 ms-4">
+                    <div class="notification-images">
+                        <img src="fonts/bell.png" height="15px" width="15px">
+                    </div>
+                    <div class="notification-wrapper">
+                        <h6>notification</h6>
+                    </div>
+                    <div class="up-arrow2">
+                        <img src="fonts/down.png" height="25px" width="25px">
+
+                    </div>
+                </div>
+                <div class="widget d-flex gap-3 mt-3 ms-4">
+                    <div class="widget-images">
+                        <img src="fonts/widget.png" height="15px" width="15px">
+                    </div>
+                    <div class="widget-wrapper">
+                        <h6>Widget</h6>
+                    </div>
+                    <div class="button-right ms-4">
+                        <h6><span class="badge bg-indigo">New</span></h6>
+
+                    </div>
+                </div>
+
+                <h6 class="ms-3 mt-4">Plugins</h6>
+                <div class="calendar d-flex gap-3 mt-3 ms-4">
+                    <div class="calendar-images">
+                        <img src="fonts/calendar.png" height="15px" width="15px">
+                    </div>
+                    <div class="calendar-wrapper">
+                        <h6>calendar</h6>
+                    </div>
+                    <div class="button-right2 ms-3">
+                        <h6><span class="badge bg-pink">Pro</span></h6>
+
+                    </div>
+                </div>
+                <div class="charts d-flex gap-3 mt-3 ms-4">
+                    <div class="charts-images">
+                        <img src="fonts/pie-graph.png" height="15px" width="15px">
+                    </div>
+                    <div class="charts-wrapper">
+                        <h6>charts</h6>
+                    </div>
+
+                </div>
+                <div class="data-tables d-flex gap-3 mt-3 ms-4">
+                    <div class="data-tables-images">
+                        <img src="fonts/cells.png" height="15px" width="15px">
+                    </div>
+                    <div class="data-tables-wrapper">
+                        <h6>DataTables</h6>
+                    </div>
+                    <div class="button-right2 me-2">
+                        <h6><span class="badge bg-pink">Pro</span></h6>
+
+                    </div>
+                </div>
+                <div class="google-map d-flex gap-2 mt-3 ms-4">
+                    <div class="google-map-images">
+                        <img src="fonts/address.png" height="20px" width="20px">
+                    </div>
+                    <div class="google-map-wrapper">
+                        <h6>GoogleMap</h6>
+                    </div>
+                    <div class="button-right2 ms-2">
+                        <h6><span class="badge bg-pink">Pro</span></h6>
+
+                    </div>
+                </div>
+
+                <h6 class="mt-4 ms-4">Extras</h6>
+                <div class="pages d-flex gap-3 mt-3 ms-4">
+                    <div class="pages-images">
+                        <img src="fonts/star.png" height="15px" width="15px">
+                    </div>
+                    <div class="pages-wrapper">
+                        <h6>Pages</h6>
+                    </div>
+                    <div class="up-arrow">
+                        <img src="fonts/down.png" height="25px" width="25px">
+
+                    </div>
+                </div>
+                <div class="apps d-flex gap-3 mt-3 ms-4">
+                    <div class="apps-images">
+                        <img src="fonts/data-bars.png" height="15px" width="15px">
+                    </div>
+                    <div class="apps-wrapper">
+                        <h6>Apps</h6>
+                    </div>
+                    <div class="up-arrow">
+                        <img src="fonts/down.png" height="25px" width="25px">
+
+                    </div>
+                </div>
+                <div class="docs d-flex gap-3 mt-3 ms-4">
+                    <div class="docs-images">
+                        <img src="fonts/google-docs.png" height="15px" width="15px">
+                    </div>
+                    <div class="docs-wrapper">
+                        <h6>Docs</h6>
+                    </div>
+                    <div class="up-arrow">
+                        <img src="fonts/down.png" height="25px" width="25px">
+
+                    </div>
+                </div>
+                <h6 class="mt-3 ms-3">System Utilization</h6>
+
+            </div>
+            <!-- content-wrapper -->
+            <div class="content-wrapper">
+
+                <h3>Dashboard</h3>
+                <h6>Home<span>/Dashboard</span></h6>
+
+                <div class="row g-0 main-content-info-graphs">
+                    <div class="col-lg-4">
+                        <div class="row g-0 main-content-info-graphs-block ">
+                            <div class="col-lg-12 shadow-sm">
+
+                                <div id="chart1_div"
+                                    style="max-width: 350px; min-height: 195px; border-radius:10px ; overflow: hidden;">
+                                </div>
+                            </div>
+                            <div class="main-content-info-lossgain">
+                                <div class="col-lg-6 shadow-sm">
+                                    <span>Customer </span><i class="fa fa-users"></i>
+                                    <h5>44.725</h5>
+                                    <div class="data-divider"><span>
+                                            (-12.4% <i class="fa fa-long-arrow-down"></i>)
+                                        </span></div>
+                                </div>
+                                <div class="col-lg-6 shadow-sm">
+                                    <span>Orders </span><i class="fa fa-shopping-cart"></i>
+                                    <h5>385</h5>
+                                    <div class="data-divider-secondary"><span>
+                                            (-17.2% <i class="fa fa-long-arrow-up"></i>)
+                                        </span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-7 chart_div-block shadow-sm">
+
+                        <div id="chart_div"
+                            style="max-width: 600px; min-height: 374px; border-radius:10px ; overflow: hidden;"></div>
+                    </div>
+                </div>
+                <div class="users-wrapper-block d-flex gap-3">
+                    <div class="users-block col-lg-9 shadow-sm">
+                        <div class="users-block-content d-flex">
+                            <div class="users-block-header">
+                                <h4>Users</h4>
+                                <span>1,232.150 Registerd Users</span>
+                            </div>
+                            <div class="add-new-users">
+                                <button type="button" class="btn btn-secondary btn-sm">
+                                    <img src="fonts/avatar.png" height="15px" width="15px">add new users</button>
+                            </div>
+                        </div>
+                        <div class="users-header d-flex gap-4">
+                            <div class="users-header-icon mt-3 ms-5">
+                                <img src="fonts/group.png" height="20px" width="20px">
+        
+                            </div>
+                                <div class="users-header-text mt-3 ms-4">
+                                    <span>Users</span>
+                                </div>
+                    
+                            
+                                <div class="countary mt-3">
+                                    <span>Countary</span>
+                                </div>
+                                
+                            
+                                <div class="usage mt-3 ms-3">
+                                    <span>Usage</span>
+                                </div>
+                                
+                                <div class="activity mt-3">
+                                    <span>Activity</span>
+                                </div>
+                                
+                            
+                        </div>
+                        <div class="border-bottom">
+                        </div>
+                        <div class="users-header d-flex gap-4">
+                            <div class="profile-images mt-1 ms-5">
+                                <img src="images/img_avatar2.png" height="35px" width="35px">
+                            </div>
+                            <div class="user-name mt-2 ms-3">
+                                <h6>Yiorgos  Awraamu</h6>
+                                <span>New Registerd Jan 1,2020</span>
+                            </div>
+                            <div class="countary-flag mt-2 ms-5">
+                                <img src="images/united-kingdom.png" height="20px" width="20px">
+                            </div>
+                            <div class="usage-in-percent mt-2 ms-5">
+                                <p>50%<span>Jan 11, 2020 + Jan 11<br> 2020</span></p>
+                                <progress id="file" value="50" max="100"></progress>
+                            </div>
+                            <div class="last-designs mt-2 ms-3">
+                                <p><span>Last Design</span><br>5 Min Ago</p>
+                            </div>
+
+                            <div class="three-dot-icons mt-3 ms-4">
+                                <img src="fonts/more.png" height="20px" width="20px">
+                            </div>
+                        </div>
+                        <div class="border-bottom">
+                        </div>
+                        <div class="users-header d-flex gap-4">
+                            <div class="profile-images mt-1 ms-5">
+                                <img src="images/man-avatar-profile.jpg" height="35px" width="35px">
+                            </div>
+                            <div class="user-name mt-2 ms-3">
+                                <h6>Avram  Tarasions</h6>
+                                <span>New Registerd Jan 1,2020</span>
+                            </div>
+                            <div class="countary-flag mt-2 ms-5">
+                                <img src="images/brazil.png" height="20px" width="20px">
+                            </div>
+                            <div class="usage-in-percent mt-2 ms-5">
+                                <p>10%<span>Jan 11, 2020 + Jan 11<br> 2020</span></p>
+                                <progress id="file" value="10" max="100"></progress>
+                            </div>
+                            <div class="last-designs mt-2 ms-3">
+                                <p><span>Last Design</span><br>5 Min Ago</p>
+                            </div>
+
+                            <div class="three-dot-icons mt-3 ms-4">
+                                <img src="fonts/more.png" height="20px" width="20px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="users-rate shadow-sm">
+                            <div class="text-white pt-3 ps-3 d-flex">
+                                <p>26k<span class="text-white">(-12.4% <img src="fonts/down-arrow.png" height="15px" width="10px">)</span></p>
+                                <div class="dot-icons ms-5">
+                                    <img src="fonts/dots.png" width="20px" height="20px">
+                                </div>
+                            </div>
+                            <h6 class="text-white">Users</h6>
+                        </div>
+
+                        <div class="customer-rate shadow-sm">
+                            <div class="text-white pt-3 ps-3 d-flex">
+                                <p>2.49%<span class="text-white">(84.7%<img src="fonts/up-arrow.png" height="15px" width="10px">)</span></p>
+                                <div class="dot-icons ms-5">
+                                    <img src="fonts/dots.png" width="20px" height="20px">
+                                </div>
+                            </div>
+                            <h6 class="text-white">Connection Rate</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <script src="js/chart.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
